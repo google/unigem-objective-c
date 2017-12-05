@@ -42,6 +42,11 @@ This is not an officially supported Google product.
 Select a mode and start typing. Copy from the result line into another app or use the custom
 keybaord to type directly into another app.
 
+## Caveat:
+
+Since your text is mapped to unusual unicode values, it won't be indexed correctly by search engines. If you care,
+you should repeat the text as ordinary characters in the body of your message.
+
 ## Building
 
 1) Start by editing account.xcconfig. It currently says:
