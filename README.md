@@ -7,7 +7,7 @@ typefaces in contexts that don't allow fonted text.
 As an iOS app, you get an iPhone UI, an iPad UI, and iPad split view support.
 
 Apple, in iOS 11, dramatically extended the character styles that you can get in their
-implementation of Uniode.
+implementation of Unicode.
 
 Some examples:
 
