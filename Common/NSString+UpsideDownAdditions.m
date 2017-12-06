@@ -235,7 +235,9 @@ static const unsigned char * BlackBoxCapsChar(uint64_t c, unsigned char *buffer,
 }
 
 static const unsigned char * BlackRingedCapsChar(uint64_t c, unsigned char *buffer, NSUInteger bufferLen) {
-  if ('A' <= c && c <= 'Z') {
+  if ('1' <= c && c <= '9') {
+    c += 0x278A - '1';
+  } else if ('A' <= c && c <= 'Z') {
     c += 0x1F150 - 'A';
   } else if ('a' <= c && c <= 'z') {
     c += 0x1F150 - 'a';
@@ -300,7 +302,11 @@ static unichar RingedChar(unichar c) {
   static unichar Ringeda = 0x24D0;
   static unichar Ringed1 = 0x2460;
   static unichar Ringed0 = 0x29BE;
-  if ('a' <= c && c <= 'z') {
+  if ('1' <= c && c <= '9') {
+    return 0x2460 + c - '1';
+  } else if ('0' == c) {
+    return 0x24EA;
+  } else if ('a' <= c && c <= 'z') {
     return Ringeda + c - 'a';
   } else if ('A' <= c && c <= 'Z') {
     return RingedA + c - 'A';
