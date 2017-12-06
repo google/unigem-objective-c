@@ -158,6 +158,8 @@ static const unsigned char *  MathDoubleChar(uint64_t c, unsigned char *buffer, 
     c += 0x1D538 - 'A';
   } else if ('a' <= c && c <= 'z') {
     c += 0x1D552 - 'a';
+  } else if ('0' <= c && c <= '9') {
+    c += 0x1D7D8 - '0';
   }
   return CharToUTF8(c, buffer, bufferLen);
 }
