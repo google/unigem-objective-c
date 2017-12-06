@@ -59,6 +59,12 @@ ACCOUNT=com.mycompany
 
 2) With the project 'Unigem' selected in Xcode's File Navigator, select each of the three targets and fix up the signing for your developer account. If you don't do this then you'll only able to run the Mac app, and the iOS ones in the simulator.
 
+2.a) In the Unigem target's General section check the checkbox to turn on automatic signing and select your team.
+
+2.b) Do the same for the 'keys' target
+
+2.c) and again for the unigem target
+
 3) Now you'll be able to select each of the three targets and use Xcode's Run command to run them.
 
 4) On the iOS device, you enable a custom keyboard in Settings > General > Keyboard > Keyboards > Add New Keyboard.
