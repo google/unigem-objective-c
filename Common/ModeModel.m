@@ -45,6 +45,7 @@ static ModeModel *sModeModel;
    _modes = @[
     MakeNode(@"Unchanged", ^(NSString *s) { return s; }),
     MakeNode(@"Ringed", ^(NSString *s) { return [s ringed]; }),
+    backwards,
     MakeNode(@"Braille", ^(NSString *s) { return [s braille]; }),
     MakeNode(@"BlackBoxedCaps", ^(NSString *s) { return [s blackBoxedCaps]; }),
     MakeNode(@"BlackRingedCaps", ^(NSString *s) { return [s blackRingedCaps]; }),
@@ -52,12 +53,11 @@ static ModeModel *sModeModel;
     // On iOS 10 and 11, this is national flags
 //    MakeNode(@"DottedBoxedCaps", ^(NSString *s) { return [s dottedBoxedCaps]; }),
     MakeNode(@"Double", ^(NSString *s) { return [s mathDouble]; }),
-    backwards,
     MakeNode(@"Germanic", ^(NSString *s) { return [s mathGermanic]; }),
     MakeNode(@"Germanic Bold", ^(NSString *s) { return [s mathGermanicBold]; }),
+    MakeNode(@"Mono", ^(NSString *s) { return [s mathMono]; }),
     MakeNode(@"Sans", ^(NSString *s) { return [s mathSans]; }),
     MakeNode(@"Sans Bold", ^(NSString *s) { return [s mathSansBold]; }),
-    MakeNode(@"Mono", ^(NSString *s) { return [s mathMono]; }),
     MakeNode(@"Sans Italic", ^(NSString *s) { return [s mathSansItalic]; }),
     MakeNode(@"Sans Bold Italic", ^(NSString *s) { return [s mathSansBoldItalic]; }),
     MakeNode(@"Serif Bold", ^(NSString *s) { return [s mathSerifBold]; }),
