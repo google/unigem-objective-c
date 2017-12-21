@@ -49,13 +49,13 @@ you should repeat the text as ordinary characters in the body of your message.
 
 ## Building
 
-1) Start by editing account.xcconfig. It currently says:
+1) Start by editing `account.xcconfig`. It currently says:
 
-ACCOUNT=com.example
+`ACCOUNT=com.example`
 
 change that to your bundle prefix: the one on your developer account. Example:
 
-ACCOUNT=com.mycompany
+`ACCOUNT=com.mycompany`
 
 2) With the project 'Unigem' selected in Xcode's File Navigator, select each of the three targets and fix up the signing for your developer account. If you don't do this then you'll only able to run the Mac app, and the iOS ones in the simulator.
 
@@ -65,11 +65,11 @@ ACCOUNT=com.mycompany
 
 2.c) and again for the unigem target
 
-3) Now you'll be able to select each of the three targets and use Xcode's Run command to run them.
+3) Now you'll be able to select each of the three targets and use Xcode's `Run` command to run them.
 
-4) On the iOS device, you enable a custom keyboard in Settings > General > Keyboard > Keyboards > Add New Keyboard.
+4) On the iOS device, you enable a custom keyboard in `Settings` > `General` > `Keyboard` > `Keyboards` > `Add New Keyboard`.
 
-PRODUCT_VERSION is a build setting defined at the project level that affects all three targets.
+`PRODUCT_VERSION` is a build setting defined at the project level that affects all three targets.
 
 None of the three versions of Unigem store or send your data.
 
