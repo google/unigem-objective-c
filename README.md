@@ -40,7 +40,7 @@ This is not an officially supported Google product.
 ## Using:
 
 Select a mode and start typing. Copy from the result line into another app or use the custom
-keybaord to type directly into another app.
+keyboard to type directly into another app.
 
 ## Caveat:
 
@@ -68,6 +68,8 @@ ACCOUNT=com.mycompany
 3) Now you'll be able to select each of the three targets and use Xcode's Run command to run them.
 
 4) On the iOS device, you enable a custom keyboard in Settings > General > Keyboard > Keyboards > Add New Keyboard.
+
+PRODUCT_VERSION is a build setting defined at the project level that affects all three targets.
 
 None of the three versions of Unigem store or send your data.
 

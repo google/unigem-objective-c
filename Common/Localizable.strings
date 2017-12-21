@@ -26,3 +26,12 @@
 // ⠀
 "backwardsUpperCase" = "AᗺƆᗡƎᖷ⅁HIᒍʞᒧMИOqϘЯƧTUVWXYZ";
 
+// missing: Q R
+"smallcaps" = "ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘQᴿsᴛᴜᴠᴡxʏᴢ";
+
+// missing: C F Q S X Z
+"verysmallcaps" = "ᴬᴮᴄᴰᴱғᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾQᖇsᵀᵁᴠᵂᵡʸᴢ";
+
+"smallpunctSource" = ",.;:?!-(){}[]#&*+-<>=\\$%@0123456789";
+
+"smallpunctDestination" = "﹐﹒﹔﹕﹖﹗﹘﹙﹚﹛﹜﹝﹞﹟﹠﹡﹢﹣﹤﹥﹦﹨﹩﹪﹫⁰¹²³⁴⁵⁶⁷⁸⁹";

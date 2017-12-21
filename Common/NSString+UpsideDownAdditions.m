@@ -488,8 +488,31 @@ typedef const unsigned char * (*StringFunc)(uint64_t, unsigned char *buffer, NSU
   return result;
 }
 
+- (NSString *)transliterateSource:(NSString *)src dest:(NSString *)dest {
+  NSMutableString *result = [NSMutableString string];
+  NSUInteger len = [self length];
+  for (NSUInteger i = 0; i < len; ++i) {
+    unichar c = [self characterAtIndex:i];
+    NSInteger index = [src indexOfCharacter:c];
+    if(-1 != index){
+      c = [dest characterAtIndex:index];
+    }
+    [result appendFormat:@"%C", c];
+  }
+  return result;
+}
+
 - (NSString *)smallCaps {
-  return [self lowerCaseReplacedByPattern:NSLocalizedString(@"smallcaps", 0)];
+  static NSString *punctSource = nil;
+  static NSString *punctDest = nil;
+  if (nil == punctSource) {
+    punctSource = NSLocalizedString(@"smallpunctSource", 0);
+  }
+  if (nil == punctDest) {
+    punctDest = NSLocalizedString(@"smallpunctDestination", 0);
+  }
+  return [[self lowerCaseReplacedByPattern:NSLocalizedString(@"smallcaps", 0)]
+    transliterateSource:punctSource dest:punctDest];
 }
 
 - (NSString *)verySmallCaps {
