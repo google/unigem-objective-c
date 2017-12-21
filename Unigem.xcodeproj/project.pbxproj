@@ -32,7 +32,6 @@
 		131487091FD1CE1C00183621 /* KeyboardLettersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 131486FD1FD1CE1C00183621 /* KeyboardLettersView.m */; };
 		1314870A1FD1CE1C00183621 /* KeyboardNumbersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 131486FF1FD1CE1C00183621 /* KeyboardNumbersView.m */; };
 		1314870B1FD1CE1C00183621 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131487011FD1CE1C00183621 /* KeyboardViewController.m */; };
-		1314870C1FD1CE1C00183621 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 131487021FD1CE1C00183621 /* Localizable.strings */; };
 		1314870D1FD1CE1C00183621 /* ModeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 131487041FD1CE1C00183621 /* ModeSelector.m */; };
 		1314870E1FD1CE1C00183621 /* SelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 131487061FD1CE1C00183621 /* SelectorCell.m */; };
 		131487221FD1CE2900183621 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 131487101FD1CE2900183621 /* MainMenu.xib */; };
@@ -107,7 +106,6 @@
 		131486FF1FD1CE1C00183621 /* KeyboardNumbersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardNumbersView.m; sourceTree = "<group>"; };
 		131487001FD1CE1C00183621 /* KeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
 		131487011FD1CE1C00183621 /* KeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
-		131487021FD1CE1C00183621 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		131487031FD1CE1C00183621 /* ModeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelector.h; sourceTree = "<group>"; };
 		131487041FD1CE1C00183621 /* ModeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeSelector.m; sourceTree = "<group>"; };
 		131487051FD1CE1C00183621 /* SelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorCell.h; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 				131486FF1FD1CE1C00183621 /* KeyboardNumbersView.m */,
 				131487001FD1CE1C00183621 /* KeyboardViewController.h */,
 				131487011FD1CE1C00183621 /* KeyboardViewController.m */,
-				131487021FD1CE1C00183621 /* Localizable.strings */,
 				131487031FD1CE1C00183621 /* ModeSelector.h */,
 				131487041FD1CE1C00183621 /* ModeSelector.m */,
 				131487051FD1CE1C00183621 /* SelectorCell.h */,
@@ -407,7 +404,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1314870C1FD1CE1C00183621 /* Localizable.strings in Resources */,
 				133603E11FD5D65800225E8E /* InfoPlist.strings in Resources */,
 				131486D71FD1CDEE00183621 /* Localizable.strings in Resources */,
 			);
