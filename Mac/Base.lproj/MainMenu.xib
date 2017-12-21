@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="15G17023" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="15G18013" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
@@ -36,10 +36,10 @@
         </customObject>
         <menu title="MainMenu" systemMenu="main" id="JQP-RS-Bqs" userLabel="MainMenu">
             <items>
-                <menuItem title="Unigem" id="dhr-sS-bId">
-                    <menu key="submenu" title="Unigem" systemMenu="apple" id="8jz-3j-RSW">
+                <menuItem title="Unicode Gems" id="dhr-sS-bId">
+                    <menu key="submenu" title="Unicode Gems" systemMenu="apple" id="8jz-3j-RSW">
                         <items>
-                            <menuItem title="About Unigem" id="Eh2-Ir-2pG" userLabel="About Unigem">
+                            <menuItem title="About Unicode Gems" id="Eh2-Ir-2pG" userLabel="About Unigem">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="g2X-2e-owz"/>
@@ -58,7 +58,7 @@
                             <menuItem isSeparatorItem="YES" id="925-xJ-yrV">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Hide Unigem" keyEquivalent="h" id="QhX-bl-XlH" userLabel="Hide Unigem">
+                            <menuItem title="Hide Unicode Gems" keyEquivalent="h" id="QhX-bl-XlH" userLabel="Hide Unigem">
                                 <connections>
                                     <action selector="hide:" target="-2" id="Dpb-80-2af"/>
                                 </connections>
@@ -77,7 +77,7 @@
                             <menuItem isSeparatorItem="YES" id="7ro-KK-dw9">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit Unigem" keyEquivalent="q" id="cyO-HZ-41a" userLabel="Quit Unigem">
+                            <menuItem title="Quit Unicode Gems" keyEquivalent="q" id="cyO-HZ-41a" userLabel="Quit Unigem">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="YHh-Nt-MaZ"/>
                                 </connections>
@@ -256,7 +256,7 @@
                 <menuItem title="Help" id="AKn-XQ-fw1">
                     <menu key="submenu" title="Help" id="KaO-PR-XEw">
                         <items>
-                            <menuItem title="Unigem Help" keyEquivalent="?" id="PBZ-EA-aCs" userLabel="Unigem Help">
+                            <menuItem title="Unicode Gems Help" keyEquivalent="?" id="PBZ-EA-aCs" userLabel="Unigem Help">
                                 <connections>
                                     <action selector="showHelp:" target="-1" id="iaM-C2-iPc"/>
                                 </connections>
@@ -266,7 +266,7 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="unigem" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="Unicode Gems" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="474" height="339"/>
@@ -321,7 +321,7 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="17" id="yse-qd-kEY"/>
                         </constraints>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Transformed using “Unigem” Here:" id="vC0-57-siR">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Transformed using “Unicode Gems” Here:" id="vC0-57-siR">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>

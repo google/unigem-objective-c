@@ -9,9 +9,9 @@
 	<key>CFBundleIconFile</key>
 	<string>Unigem</string>
 	<key>CFBundleHelpBookFolder</key>
-	<string>Unigem Help</string>
+	<string>Unicode Gems Help</string>
 	<key>CFBundleHelpBookName</key>
-	<string>Unigem Help</string>
+	<string>Unicode Gems Help</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>

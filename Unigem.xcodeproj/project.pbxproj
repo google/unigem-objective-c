@@ -46,7 +46,7 @@
 		1314872C1FD1CE2900183621 /* Unigem.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1314871F1FD1CE2900183621 /* Unigem.icns */; };
 		1314872D1FD1CE2900183621 /* UnigenDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 131487211FD1CE2900183621 /* UnigenDelegate.m */; };
 		131487311FD1CEF300183621 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1314872F1FD1CEF300183621 /* MainMenu.xib */; };
-		131487331FD1CF0300183621 /* Unigen Help in Resources */ = {isa = PBXBuildFile; fileRef = 131487321FD1CF0300183621 /* Unigen Help */; };
+		131487331FD1CF0300183621 /* Unicode Gems Help in Resources */ = {isa = PBXBuildFile; fileRef = 131487321FD1CF0300183621 /* Unicode Gems Help */; };
 		133603DF1FD5D63800225E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 133603DE1FD5D63800225E8E /* InfoPlist.strings */; };
 		133603E11FD5D65800225E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 133603E01FD5D65800225E8E /* InfoPlist.strings */; };
 		133603E31FD5D66D00225E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 133603E21FD5D66D00225E8E /* InfoPlist.strings */; };
@@ -128,7 +128,7 @@
 		131487201FD1CE2900183621 /* UnigenDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnigenDelegate.h; sourceTree = "<group>"; };
 		131487211FD1CE2900183621 /* UnigenDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnigenDelegate.m; sourceTree = "<group>"; };
 		131487301FD1CEF300183621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainMenu.xib; sourceTree = "<group>"; };
-		131487321FD1CF0300183621 /* Unigen Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Unigen Help"; path = "Mac/Unigen Help"; sourceTree = SOURCE_ROOT; };
+		131487321FD1CF0300183621 /* Unicode Gems Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Unicode Gems Help"; path = "Mac/Unicode Gems Help"; sourceTree = SOURCE_ROOT; };
 		133603DE1FD5D63800225E8E /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		133603E01FD5D65800225E8E /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		133603E21FD5D66D00225E8E /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 		1314870F1FD1CE2900183621 /* Mac */ = {
 			isa = PBXGroup;
 			children = (
-				131487321FD1CF0300183621 /* Unigen Help */,
+				131487321FD1CF0300183621 /* Unicode Gems Help */,
 				1314872E1FD1CEF300183621 /* Base.lproj */,
 				131487101FD1CE2900183621 /* MainMenu.xib */,
 				133603E21FD5D66D00225E8E /* InfoPlist.strings */,
@@ -347,7 +347,7 @@
 					638DB0971FC0E6EF00346159 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = "";
-            ProvisioningStyle = Manual;
+						ProvisioningStyle = Manual;
 					};
 					638DB0B51FC0E71A00346159 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -382,7 +382,7 @@
 			files = (
 				131486D81FD1CDEE00183621 /* Localizable.strings in Resources */,
 				131487261FD1CE2900183621 /* main.css in Resources */,
-				131487331FD1CF0300183621 /* Unigen Help in Resources */,
+				131487331FD1CF0300183621 /* Unicode Gems Help in Resources */,
 				1314872C1FD1CE2900183621 /* Unigem.icns in Resources */,
 				131487241FD1CE2900183621 /* logo_small.png in Resources */,
 				131487291FD1CE2900183621 /* ModeCell.xib in Resources */,
@@ -651,7 +651,7 @@
 			baseConfigurationReference = 131486C91FD1CDEE00183621 /* account.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-        CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -668,7 +668,7 @@
 			baseConfigurationReference = 131486C91FD1CDEE00183621 /* account.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-        CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
